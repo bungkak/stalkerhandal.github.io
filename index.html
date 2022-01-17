@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <h1>Hai Sayang wkwkwk</h1>
+        <img src="https://media4.giphy.com/media/T6KpTPcNbmJPDpM2P5/giphy.gif?cid=790b7611d9319dd2a167694967185947dba4815317e0196b&rid=giphy.gif&ct=g">
+        <h1>Mau nggak jadii pacarku??</h1>
+        <button id='btn_mau' onclick='alert("LOP YOUUU :D")'>Mau</button>&nbsp;
+        <button id='btn_gamau' onclick='gamau(this)'style='position:absolute'>Gamau</button>
+    </body>
+    <script>
+        function gamau(id){
+            var mau = document.getElementById('btn_mau');
+            var i = Math.floor(Math.random()*300)+1;
+            var j = Math.floor(Math.random()*100)+mau.offsetTop;
+            id.style.left = i+'px';
+            id.style.top = j+'px';
+        }
+    </script>
+</html>
